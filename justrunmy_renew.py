@@ -14,10 +14,10 @@ DOMAIN    = "justrunmy.app"
 # ============================================================
 #  环境变量与全局变量
 # ============================================================
-EMAIL        = os.environ.get("JUSTRUNMY_EMAIL")
-PASSWORD     = os.environ.get("JUSTRUNMY_PASSWORD")
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")
-TG_CHAT_ID   = os.environ.get("TG_CHAT_ID")
+EMAIL        = "hjp2003@hotmail.com"
+PASSWORD     = "Gxhjp@2007"
+TG_BOT_TOKEN = "8108138081:AAFXRYH4e_s3uPsmStXuwCQowdd_sGf2-QU"
+TG_CHAT_ID   = "6522216651"
 
 if not EMAIL or not PASSWORD:
     print("❌ 致命错误：未找到 JUSTRUNMY_EMAIL 或 JUSTRUNMY_PASSWORD 环境变量！")
